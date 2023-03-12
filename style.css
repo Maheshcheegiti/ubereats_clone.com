@@ -1,11 +1,7 @@
-@font-face {font-family: "Uber Move Text"; 
-    src: url("https://db.onlinewebfonts.com/t/11469c307f0de6481e3a04cc5d54ae93.eot"); 
-    src: url("https://db.onlinewebfonts.com/t/11469c307f0de6481e3a04cc5d54ae93.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/11469c307f0de6481e3a04cc5d54ae93.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/11469c307f0de6481e3a04cc5d54ae93.woff") format("woff"), url("https://db.onlinewebfonts.com/t/11469c307f0de6481e3a04cc5d54ae93.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/11469c307f0de6481e3a04cc5d54ae93.svg#Uber Move Text") format("svg"); 
-}
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Uber Move Text',sans-serif;
+    font-family: 'Uber Move',sans-serif;
     box-sizing: border-box;
 }
 h1 {
