@@ -1,9 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Uber Move',sans-serif;
+    font-family: 'Uber Move', sans-serif;
     box-sizing: border-box;
 }
+
 h1 {
     font-size: 50px;
 }
@@ -505,10 +506,11 @@ footer {
     }
 }
 
-.hidden{
+.hidden {
     display: none;
 }
-.show{
+
+.show {
     display: block;
     animation: reveal 1s forwards;
 }
