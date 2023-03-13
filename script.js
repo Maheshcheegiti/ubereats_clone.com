@@ -1,7 +1,6 @@
 window.addEventListener('scroll', function () {
   const myDiv = document.querySelector('header');
   const myDiv2 = document.getElementById('mbar');
-  var fl = 0;
   if (window.scrollY > 0) {
     myDiv.classList.add('scrolled');
   } else {
@@ -10,10 +9,8 @@ window.addEventListener('scroll', function () {
   if (window.scrollY > 400) {
     myDiv2.classList.add('show');
     myDiv2.classList.remove('hide');
-    f = 1;
-  } else if (f == 1) {
+  } else {
     myDiv2.classList.add('hide');
-    f = 0;
   }
 });
 const optionMenu = document.querySelector(".select-menu"),
